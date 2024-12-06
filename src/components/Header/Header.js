@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from '../../assets/images/logo/Google-Logo.wine (1).svg';
+import './Header.scss';
 
 
 const Header = () => {
