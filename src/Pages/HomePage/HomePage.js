@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect } from "react";
 import './HomePage.scss';
+import { Link } from "react-router-dom";
 
 
 
@@ -33,9 +34,9 @@ const HomePage = () => {
                     <select></select>
                     <select>
                       <option defaultValue="economy">Economy</option>
-                      <option></option>
-                      <option></option>
-                      <option></option>
+                      <option value="premiumEconomy">Premium economy</option>
+                      <option value="business">Business</option>
+                      <option value="first">First</option>
                     </select>
                   </div>
                   <div>
@@ -54,6 +55,107 @@ const HomePage = () => {
                 </div>
               </form>
             </section>
+            <section>
+              <div>
+                <h2>Find cheap flights from Toronto to anywhere</h2>
+              </div>
+            </section>
+            <section>
+              <div>
+                <h2>Useful tools to help you find the best deals</h2>
+              </div>
+            </section>
+            <section>
+              <div>
+                <h2>Popular destinations from Toronto</h2>
+              </div>
+            </section>
+            <section>
+              <div>
+                <h2>Frequently asked questions</h2>
+              </div>
+            </section>
+            <section>
+              <div>
+                <h2>Find cheap flights on popular routes</h2>
+                <div>
+                  <ul>
+                    <li>
+                      <Link to="https://www.google.com/travel/flights/flights-from-new-york-to-paris.html">Flighs from New York to London</Link>
+                    </li>
+                    <li>
+                      <Link to="https://www.google.com/travel/flights/flights-from-new-york-to-rome.html">Flights from New York to Rome</Link>
+                    </li>
+                    <li>
+
+                    </li>
+                    <li>
+
+                    </li>
+                    <li>
+
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      
+                    </li>
+                    <li>
+                      
+                    </li>
+                    <li>
+                      
+                    </li>
+                    <li>
+                      
+                    </li>
+                    <li>
+                      
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      
+                    </li>
+                    <li>
+                      
+                    </li>
+                    <li>
+                      
+                    </li>
+                    <li>
+                      
+                    </li>
+                    <li>
+                      
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <footer>
+              <section>
+                <div>
+
+                </div>
+                <div>
+                  
+                </div>
+                <div>
+                  
+                </div>
+              </section>
+              <section>
+                <div>
+                  <ul>
+
+                  </ul>
+                  <ul>
+
+                  </ul>
+                </div>
+              </section>
+            </footer>
           </div>
         </>
       )

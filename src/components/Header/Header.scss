@@ -1,0 +1,9 @@
+@use '../../styles/partials/variables' as * ;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/typography' as *;
+
+button {
+    background-color: #ffffff;
+    border: 0.5px solid $primary-Text;
+    border-radius: 1.5rem;
+}

@@ -1,0 +1,31 @@
+@use "./typography" as *;
+@use "./variables" as *;
+
+
+@mixin Mobile {
+    @media screen and (min-width: $Mobile) {
+        @content;
+    }
+}
+
+@mixin Tablet {
+    @media screen and (min-width: $Tablet) {
+        @content;
+    }
+}
+
+@mixin Desktop {
+    @media screen and (min-width: $Desktop) {
+        @content;
+    }
+}
+
+
+
+@mixin button {
+    font-family: "Roboto";
+    color: $primary-Text;
+    background-color: #FFFFFF;
+}
+
+
